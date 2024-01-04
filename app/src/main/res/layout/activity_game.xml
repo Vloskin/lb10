@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/bubble1"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rectangle" />
+    <View
+        android:id="@+id/bubble2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/squer" />
+    <View
+        android:id="@+id/bubble3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/treangle_1_" />
+    <View
+        android:id="@+id/bubble4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/treangle_4_" />
+    <View
+        android:id="@+id/bubble5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/treangle_4_" />
+    <View
+        android:id="@+id/bubble6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/treangle_5_" />
+    <View
+        android:id="@+id/bubble7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/triangle_2_" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+</LinearLayout>
